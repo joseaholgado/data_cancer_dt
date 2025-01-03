@@ -21,7 +21,7 @@ st.set_page_config(page_title="Predicción de Árbol de Decisiones para Radius M
 # """)
 
 # Título de la aplicación para svm
-st.title("Predicción de Radius Mean")
+st.title("Predicción en Árbol de Decisiones para Radius Mean")
 st.write("""
     Este proyecto utiliza un modelo de árbol de decisiones para predecir el radio promedio (`radius_mean`) 
     basado en características celulares. Introduce los valores en los campos correspondientes para obtener una predicción.
