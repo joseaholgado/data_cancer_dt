@@ -11,7 +11,7 @@ scaler = joblib.load("decision_tree_scaler.pkl")
 # scaler = joblib.load("svm_scaler.pkl")
 
 # Configuración de la página
-st.set_page_config(page_title="Predicción de Radius Mean", layout="centered")
+st.set_page_config(page_title="Predicción de Árbol de Decisiones para Radius Mean", layout="centered")
 
 # Título de la aplicación para decision tree
 # st.title("Predicción de Radius Mean")
