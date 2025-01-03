@@ -3,12 +3,12 @@ import joblib
 import numpy as np
 
 # Cargar el modelo y el escalador decision tree
-# model = joblib.load("decision_tree_model.pkl")
-# scaler = joblib.load("scaler.pkl")
+model = joblib.load("decision_tree_model.pkl")
+scaler = joblib.load("decision_tree_scaler.pkl")
 
 # Cargar el modelo y el escalador decision tree
-model = joblib.load("svm_model.pkl")
-scaler = joblib.load("svm_scaler.pkl")
+# model = joblib.load("svm_model.pkl")
+# scaler = joblib.load("svm_scaler.pkl")
 
 # Configuración de la página
 st.set_page_config(page_title="Predicción de Radius Mean", layout="centered")
